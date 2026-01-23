@@ -6,13 +6,13 @@ class MyLinkedList {
             this.val = val;
         }
     }
-    private Node head;
-    private Node tail;
+    Node head;
+    Node tail;
     private int size;
    
     public MyLinkedList() {
-        this.head = null;
-        this.tail=null;
+        head = null;
+        tail=null;
         this.size = 0;
     }
     
