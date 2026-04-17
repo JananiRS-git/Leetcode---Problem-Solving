@@ -6,7 +6,7 @@ class Solution {
             int num=1;
             for(int j=0;j<=i;j++){
                 row.add(num);
-                num=num*(i-j)/(j+1);
+                num=num*(i-j)/(j+1);//Binomial coefficient formula-->hasena mam
             }
             res.add(row);
         }
