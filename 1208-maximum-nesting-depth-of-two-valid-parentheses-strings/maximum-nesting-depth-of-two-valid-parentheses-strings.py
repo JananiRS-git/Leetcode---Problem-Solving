@@ -2,8 +2,8 @@ class Solution:
     def maxDepthAfterSplit(self, seq: str) -> list[int]:
         result=[]
         a=0
-        for i in range(len(seq)):
-            if seq[i]=='(':
+        for i in seq:
+            if i =='(':
                 result.append(a %2)
                 a+=1
             else:
